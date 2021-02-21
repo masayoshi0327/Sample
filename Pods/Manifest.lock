@@ -1,0 +1,16 @@
+PODS:
+  - ConcentricOnboarding (0.0.6)
+
+DEPENDENCIES:
+  - ConcentricOnboarding
+
+SPEC REPOS:
+  trunk:
+    - ConcentricOnboarding
+
+SPEC CHECKSUMS:
+  ConcentricOnboarding: 954a4c5486a96f446f38ebe96c4d5c7899315508
+
+PODFILE CHECKSUM: 499471937b06cc521815f772e7a5fb82a84d2f14
+
+COCOAPODS: 1.10.1

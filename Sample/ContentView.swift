@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isOpen = false
+    
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            VStack{
+                Text("こんにちは!")
+                    .padding()
+                
+                
+            }
+            Button(action: {isOpen.toggle()}, label: {
+                Text("Open Sheet!")
+            })
+            .font(.title)
             .padding()
+            .sheet(isPresented: $isOpen, content: {
+                SecondView()
+            })
+        }
     }
 }
 
