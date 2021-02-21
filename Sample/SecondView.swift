@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import ConcentricOnboarding
 
 struct SecondView: View {
     var body: some View {
-        Text("2枚目!")
+        ConcentricOnboardingView(pages: [AnyView(FirstPage()), AnyView(SecondPage())], bgColors: [.orange, .pink])
     }
 }
 
